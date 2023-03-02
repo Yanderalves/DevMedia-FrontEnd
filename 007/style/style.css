@@ -1,0 +1,32 @@
+body {
+    background-color: #F1F1F1;
+    height: 90vh;
+}
+
+main {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 600px;
+    margin: 0 auto;
+    height: 40vh;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1 {
+    border: 3px solid black;
+    padding: 5px;
+}
+
+h3 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    line-height: 30px;
+}

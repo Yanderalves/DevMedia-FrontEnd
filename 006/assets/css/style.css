@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+main {
+    background-color: white;
+    height: 650px;
+    width: 700px;
+    padding-top: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 40px;
+    margin: 18px auto;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(3, 199, 3);
+    color: white;
+    width: 600px;
+    border-left: 10px solid black;
+    font-size: 37px;
+    border-radius: 0 15px 15px 0px;
+    height: 50px;
+}
+
+p {
+    width: 600px;
+    margin: 0 auto;
+}
+
+ul {
+    width: 600px;
+}
+
+.container-img {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+img {
+    width: 600px;
+    margin: 0px 0px 15px 0px;
+}
+
+button {
+    margin-top: 25px;
+    width: 100px;
+    background-color: rgb(3, 199, 3);
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+}

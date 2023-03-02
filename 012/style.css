@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    width: 900px;
+}
+
+div {
+    background-image: url(img/capa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 25px;
+    color: white;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.background-black {
+    background-color: black;
+}
+
+.background-red {
+    background-color: red;
+}
+
+section {
+    margin: 0 auto;
+    height: 70vh;
+    text-align: center;
+}
+
+.cast {
+    margin-top: 60px;
+    text-align: left;
+}
+
+.cast p {
+    margin: 15px 0 15px 0;
+    text-align: left;
+}
+
+
+.empty {
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}

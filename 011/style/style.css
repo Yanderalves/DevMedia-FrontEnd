@@ -1,0 +1,53 @@
+body {
+    background-image: url('/aula-3/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    width: 800px;
+    margin: 0px auto;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+
+div {
+    text-align: center;
+    border: 1px solid white;
+    height: 100px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+main>p {
+    width: 100%;
+    text-align: justify;
+}
+
+a {
+    background-color: white;
+    padding: 7px;
+    border-radius: 15px;
+    text-decoration: none;
+}
