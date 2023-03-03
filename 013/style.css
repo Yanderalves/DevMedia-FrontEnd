@@ -1,0 +1,81 @@
+/* General settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.down-size {
+    margin: 0px auto;
+    padding: 50px 0px;
+    width: 670px;
+}
+
+ul {
+    margin-left: 35px;
+}
+
+/* Header */
+
+header .down-size {
+    padding: 10px;
+}
+
+/* Home */
+
+.home h1,
+.home h2 {
+    text-align: right;
+}
+
+
+.home {
+    background-image: url(img/capa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+/* About */
+
+.about span {
+    border-left: 1px solid;
+    padding-left: 10px;
+}
+
+img {
+    width: 220px;
+}
+
+
+/* Actin and Contact */
+
+.acting-title,
+.contact-title {
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+.acting-title span,
+.contact-title span {
+    padding: 3px 20px;
+    background-color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.acting h3,
+.acting p,
+.contact h3,
+.contact p,
+.about h3,
+.about p {
+    margin: 4px;
+}
