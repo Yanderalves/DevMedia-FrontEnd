@@ -1,0 +1,112 @@
+/* general settings */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.down-size{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 60vw;
+    gap: 30px;
+}
+
+img{
+    width: 5%;
+}
+
+/* Header and footer */
+
+header, footer{
+    display: flex;
+    align-items: center;
+    height: 6vh;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+header a:visited{
+    color: blue;
+}
+
+nav{
+    display: flex;
+    gap: 15px;
+}
+
+a{
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+/* Image movie cover */
+
+body > img{
+    width: 100%;
+    height: 94vh;
+}
+
+/* Sinopsys and Disponibility */
+
+#synopsis, #disponibility{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 25px;
+}
+
+#synopsis > p, #disponibility > p{
+    text-align: justify;
+}
+
+/* Synopsis */
+#synopsis{
+    margin-top: 30px;
+}
+
+/* Disponibility */
+
+#disponibility > img{
+    width: 100%;
+    height: 350px;
+}
+
+/* galery */
+
+.container-galery{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.container-galery > p{
+    align-self: flex-start;
+}
+.galery{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    overflow: auto;
+    
+}
+
+.galery > img{
+    width: 300px;
+    box-shadow: 5px 5px 10px;
+}
