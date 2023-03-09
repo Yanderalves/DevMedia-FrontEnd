@@ -1,0 +1,104 @@
+/* General settings */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.down-size {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1024px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    min-height: 65vh;
+    margin-top: 15px;
+
+    gap: 15px;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 15px;
+    color: yellow;
+    gap: 10px;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    gap: 7px;
+}
+
+nav a:visited {
+    color: yellow;
+}
+
+/* Image Home */
+
+
+.container-img-home img {
+    width: 100%;
+    background-size: cover;
+
+}
+
+/* about e consultants */
+
+
+.about,
+.consultants {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.about img,
+.consultants img {
+    width: 50%;
+}
+
+.about p,
+.consultants p {
+    text-align: justify;
+}
+
+/* Map */
+
+.container-map {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 40px;
+}

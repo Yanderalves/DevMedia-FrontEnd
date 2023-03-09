@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lista {
+    border: 3px solid;
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+span {
+    font-size: 50px;
+}
+
+li {
+    position: relative;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+small {
+    position: absolute;
+    top: 15px;
+    left: 55px;
+}
+
+p {
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+    font-size: large;
+}
