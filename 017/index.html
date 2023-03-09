@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Cafeteria</title>
 </head>
@@ -11,12 +15,12 @@
     <header>
         <img src="assets/logo.png" alt="Logo cafeteria">
         <ul>
-            <li><a href="#">Informações</a></li>
-            <li><a href="#">Contatos</a></li>
-            <li><a href="#">Horários</a></li>
+            <li><a href="#informations">Informações</a></li>
+            <li><a href="#contact">Contatos</a></li>
+            <li><a href="#operation">Horários</a></li>
         </ul>
     </header>
-    <div class="banner">
+    <div id="top" class="banner">
         <h1>MANHATTAN - COFFEE HOUSE</h1>
     </div>
     <section id="informations">
@@ -78,33 +82,42 @@
         </div>
     </section>
     <section id="operation">
+        <h2 class="background-brown">HORÁRIOS DE FUNCIONAMENTO</h2>
         <ul>
             <li>
                 <h3>SEGUNDA</h3>
-                <span>FECHADO</span>
+                <span></span>
+                <p class="span-closed">FECHADO</p>
             </li>
             <li>
                 <h3>TERÇA</h3>
+                <span></span>
                 <p>09:00 - 22:00</p>
             </li><li>
                 <h3>QUARTA</h3>
+                <span></span>
                 <p>09:00 - 22:00</p>
             </li><li>
                 <h3>QUINTA</h3>
+                <span></span>
                 <p>09:00 - 22:00</p>
             </li><li>
                 <h3>SEXTA</h3>
+                <span></span>
                 <p>09:00 - 22:00</p>
             </li>
             <li>
                 <h3>SÁBADO</h3>
+                <span></span>
                 <p>09:00 - 22:00</p>
             </li>
             <li>
                 <h3>DOMINGO</h3>
+                <span></span>
                 <p>12:00 - 22:00</p>
             </li>
         </ul>
+        <a href="#top"><img src="assets/seta-para-cima.png" alt="Seta para cima"></a>
     </section>
     <footer>
         <p>&copy; Manhattan - Coffee House - Todos os direitos reservados</p>
