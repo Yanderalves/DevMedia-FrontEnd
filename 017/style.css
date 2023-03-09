@@ -1,0 +1,174 @@
+/* General settings */
+
+:root{
+    --000: #000000;
+    --001: #604829;
+    --002: #c4a47c;
+    --003: #ACACAC;
+    --004: #666;
+    --005: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+section, .container-text, .container-paralax{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* Header */
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: var(--001);
+    color: var(--002);
+    height: 10vh;
+    position: fixed;
+}
+
+header img{
+    width: 80px;
+    height: 100px;
+}
+
+header ul{
+    display: flex;
+    text-transform: uppercase;
+    gap: 15px;
+    text-shadow: 3px 3px 4px #000000;
+}
+
+a:visited{
+    color: var(--002);
+}
+
+/* Banner */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/parallax-imagem1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    height: 100vh;
+}
+
+.banner h1{
+    text-align: center;
+    color: white;
+}
+
+/* Informations */
+
+.container-text{
+    gap: 15px;
+    margin: 10px 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+}
+
+.container-text h2{
+    color: var(--002);
+    font-size: 20px;
+}
+
+.container-text p{
+    max-width: 60vw;
+    line-height: 30px;
+}
+
+.container-paralax{
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    height: 320px;
+}
+
+.background-brown{
+    background-color: var(--001);
+    padding: 10px;
+    color: var(--005);
+}
+
+#paralax-1{
+    background-image: url(assets/parallax-imagem2.jpg);
+}
+
+#paralax-2{
+    background-image: url(assets/parallax-imagem3.jpg);
+}
+
+/* Contact */
+
+#contact{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 35px;
+    padding: 30px 0px;
+    background-image: url(assets/parallax-imagem4.png);
+}
+
+iframe{
+    width: 70vw;
+    height: 400px;
+}
+
+/* Operation */
+
+#operation{
+    color: white;
+    background-image: url(assets/cafeteria.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+#operation li{
+    height: 50px ;
+    text-align: right;
+    margin: 0 auto;
+    display: flex;
+    gap: 250px;
+}
+
+#operation span{
+    color: var(--002);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 10vh;
+    background-color: var(--000);
+    color: var(--005);
+    padding: 10px 0px; 
+}
