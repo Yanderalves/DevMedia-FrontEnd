@@ -23,6 +23,9 @@ header{
     align-items: center;
     padding: 10px 0;
     height: 15vh;
+    position: fixed;
+    background-color: var(--000);
+    width: 100%;
 }
 
 .container-logo{
@@ -112,3 +115,66 @@ nav a:visited{
     color: var(--001);
 }
 
+/* informations */
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 60vh;
+}
+
+.informations .container-infos .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.informations .container-infos .info img{
+    width: 170px;
+}
+
+.container-infos{
+    display: flex;
+}
+
+.container-infos h3{
+    font-size: 15px;
+}
+
+.container-infos p{
+    width: 400px;
+    font-size: 13px;
+    width: 280px;
+}
+
+.informations .container-infos .info p{
+    text-align: center;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0 0 0;
+    gap: 30px;
+}
+
+footer p{
+    font-weight: bold;
+}
+
+.container-footer{
+    background-color: var(--003);
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.container-footer a{
+    color: var(--005);
+}
