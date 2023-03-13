@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root{
@@ -13,3 +14,43 @@
     --005: #2f86d6;
     --006: #233032;
 }
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-logo img{
+    width: 90px;
+}
+
+.text-logo h1{
+    font-size: 22px;
+}
+
+.text-logo p{
+    color: var(--005);
+}
+
+nav{
+    display: flex;
+    font-weight: bold;
+    gap: 15px;
+    color: var(--006);
+}
+
+nav a:visited{
+    color: var(--006);
+}
+
+
