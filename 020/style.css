@@ -4,3 +4,12 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+:root{
+    --000: #fff;
+    --001: #f1f3f7;
+    --003: #f6f6f6;
+    --004: #a89f9f;
+    --005: #2f86d6;
+    --006: #233032;
+}
