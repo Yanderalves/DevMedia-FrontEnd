@@ -22,6 +22,7 @@ header{
     justify-content: space-around;
     align-items: center;
     padding: 10px 0;
+    height: 15vh;
 }
 
 .container-logo{
@@ -53,4 +54,61 @@ nav a:visited{
     color: var(--006);
 }
 
+/* Banner */
+
+.banner{
+    display: flex;
+    background-color: var(--005);
+    color: var(--001);
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+
+.banner .container-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+
+.banner img{
+    width: 400px;
+}
+
+/* Ad */
+
+.ad{
+    display: flex;
+    background-color: var(--006);
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--001);
+    height: 15vh;
+}
+
+.ad .container-text h2{
+    font-size: 20px;
+}
+.ad .container-text p{
+    font-size: 14px;
+}
+
+.ad a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--005);
+    gap: 10px;
+    border-radius: 3px;
+    width: 150px;
+    width: 200px;
+    padding: 15px 0;
+}
+
+.ad a:visited{
+    color: var(--001);
+}
 
