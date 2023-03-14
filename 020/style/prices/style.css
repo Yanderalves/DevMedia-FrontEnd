@@ -3,6 +3,17 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+:root {
+    --000: #fff;
+    --001: #f1f3f7;
+    --003: #f6f6f6;
+    --004: #a89f9fb4;
+    --005: #2f86d6;
+    --006: #233032;
 }
 
 /* header */
@@ -11,7 +22,8 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 15vh;
-    background-color: var(--000);
+    visibility: hidden;
+    background-color: var(--005);
     width: 100%;
 }
 
@@ -30,7 +42,7 @@ header {
 }
 
 .text-logo p {
-    color: var(--005);
+    color: var(--000);
 }
 
 nav {
@@ -41,7 +53,7 @@ nav {
 }
 
 nav a:visited {
-    color: var(--006);
+    color: var(--000);
 }
 
 nav a {
@@ -64,4 +76,31 @@ nav a:hover {
     justify-content: center;
 }
 
-.prices 
+.prices table{
+    position: relative;
+}
+
+.prices thead{
+    position: absolute;
+    bottom: 260px;
+    left: 203px;
+}
+
+.prices thead th p{
+    color: var(--006);
+}
+
+.prices{
+    text-align: center;
+}
+
+.prices tr{
+    height: 50px;
+}
+
+.prices td, .prices th{
+    width: 200px;
+    border: 0.5px solid var(--004);
+}
+
+/* .prices  */
