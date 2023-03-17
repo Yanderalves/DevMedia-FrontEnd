@@ -22,8 +22,9 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 15vh;
-    visibility: hidden;
+    visibility: visible;
     background-color: var(--005);
+    position: relative;
     width: 100%;
 }
 
@@ -68,77 +69,95 @@ nav a:hover {
 
 
 
-/* Prices */
+/*#Prices */
 
-.prices {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#prices {
+    margin: 70px 0;
     font-size: 15px;
-    text-align: center;
 }
 
-.prices table{
-    position: relative;
+#prices table {
+    margin: 0 auto;
+    width: 60vw;
 }
-/*   */
 
-.prices thead tr th p{
+#prices thead tr th {
+    height: 100px;
+}
+
+#prices thead tr th h2 {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+#prices thead tr th p {
     color: var(--004);
     font-size: 12px;
 }
 
-#second-column{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: -300px;
-}
 
-#second-column th{
-    text-align: left;
-    width: 300px;
-    height: 200px;
-}
-
-
-/* .prices tbody tr td:first-child{
-    text-align: left;
-    padding-left: 20px;
-    width: 300px;
-} */
-
-.prices tr, .prices td{
+#prices td,
+#prices th {
+    font-weight: bold;
+    text-align: center;
     height: 50px;
-}
-
-.prices td, .prices th{
     width: 200px;
-    border-bottom: 0.5px solid var(--004);
-    border-right: 0.5px solid var(--004);
+    border-bottom: 1px solid var(--003);
+    border-right: 1px solid var(--003);
 }
 
-.prices thead th{
+#prices thead th,
+#prices tbody tr td:first-child {
     background-color: var(--003);
 }
 
-.prices th{
-    width: 200px;
-    text-align: center;
-    height: 180px;
+#prices tbody tr td:first-child {
+    width: 330px;
+    text-align: left;
+    padding-left: 50px;
+    font-weight: bold;
 }
 
+#prices td {
+    position: relative;
+}
 
-
-.point span{
+.blue-marker {
+    background-color: var(--005);
     height: 20px;
     width: 20px;
-    background-color: var(--005);
-    border-radius: 50%;    
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    bottom: 15px;
 }
 
-/* .point{
+/* Footer */
+
+.contact {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-} */
+    justify-content: center;
+    background-color: var(--005);
+    padding: 15px 0 0 0;
+    gap: 30px;
+    height: 270px;
+}
+
+.contact p {
+    font-weight: bold;
+    color: var(--000);
+}
+
+footer {
+    color: var(--006);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+footer a {
+    color: var(--005);
+}

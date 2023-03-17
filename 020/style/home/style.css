@@ -145,23 +145,23 @@ nav a:hover {
 
 /* informations */
 
-.informations {
+#informations {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    height: 60vh;
+    height: 80vh;
 }
 
-.informations .container-infos .info {
+#informations .container-infos .info {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
 
-.informations .container-infos .info img {
+#informations .container-infos .info img {
     width: 170px;
 }
 
@@ -170,7 +170,7 @@ nav a:hover {
     gap: 30px;
 }
 
-.informations .container-text h3,
+#informations .container-text h3,
 .plans h3 {
     width: 800px;
     text-align: center;
@@ -192,13 +192,13 @@ span {
     width: 280px;
 }
 
-.informations .container-infos .info p {
+#informations .container-infos .info p {
     text-align: center;
 }
 
 /* Plans */
 
-.plans {
+#plans {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -212,35 +212,35 @@ table {
     box-shadow: 0px 0px 30px 5px var(--005);
 }
 
-.plans h4 {
+#plans h4 {
     font-size: 20px;
 }
 
-.plans thead {
+#plans thead {
     display: flex;
     justify-content: space-around;
 }
 
-.plans thead tr {
+#plans thead tr {
     display: flex;
     flex-direction: column;
     width: 300px;
 }
 
 
-.plans thead th:last-child {
+#plans thead th:last-child {
     font-weight: 500;
     color: var(--005);
 }
 
-.plans tbody tr {
+#plans tbody tr {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-around;
 }
 
-.plans tbody td {
+#plans tbody td {
     width: 300px;
     border: 0.5px var(--001) solid;
     padding: 15px 0;
@@ -250,13 +250,13 @@ table {
     background-color: var(--000);
 }
 
-.plans img {
+#plans img {
     width: 100px;
 }
 
 
 /* Footer */
-.contact {
+#contact {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -266,7 +266,7 @@ table {
     height: 400px;
 }
 
-.contact p {
+#contact p {
     font-weight: bold;
 }
 
