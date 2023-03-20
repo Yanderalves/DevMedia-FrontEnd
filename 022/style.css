@@ -1,0 +1,59 @@
+/* General settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    margin: 20px 0 80px;
+    text-align: center;
+}
+
+.conteudo-dispositivo {
+    display: none;
+    text-align: center;
+}
+
+/* Small Devices */
+@media screen and (max-width: 480px) {
+    .pequeno {
+        display: block;
+    }
+}
+
+/* Medium Devices */
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .medio {
+        display: block;
+    }
+}
+
+/* Large Devices */
+@media screen and (min-width: 1025px) {
+    .grande {
+        display: block;
+    }
+}
+
+
+/* Print Devices */
+@media print {
+    .titulo {
+        margin: 0 0 50px;
+        text-align: left;
+    }
+
+    .conteudo-dispositivo {
+        text-align: left;
+    }
+
+    body {
+        background-color: #FFF;
+        color: #000;
+    }
+
+    .conteudo-dispositivo.impressao {
+        display: block;
+    }
+}
