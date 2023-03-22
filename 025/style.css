@@ -1,0 +1,19 @@
+p:last-child{
+    background-color: aqua;
+}
+
+p:last-of-type{
+    background-color: aqua;
+}
+
+main p::first-letter{
+    font-size: 30px;
+}
+
+a::after{
+    content: "";
+    background-color: aqua;
+    background-image: url(../008/images/autor.jpg);
+    width: 30px;
+    height: 10px;
+}
