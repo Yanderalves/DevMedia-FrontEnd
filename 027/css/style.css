@@ -1,5 +1,5 @@
 /* General settings */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,15 +7,16 @@
     text-decoration: none;
 }
 
-a:visited, a{
+a:visited,
+a {
     color: black;
 }
 
-.container-text{
+.container-text {
     text-align: center;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     margin: 30px 0;
@@ -23,8 +24,9 @@ section{
     align-items: center;
     justify-content: center;
 }
+
 /* Header */
-header{
+header {
     display: flex;
     background-color: white;
     width: 100%;
@@ -35,27 +37,27 @@ header{
     position: fixed;
 }
 
-header h2 span{
+header h2 span {
     color: #8395ab;
 }
 
-nav{
+nav {
     text-transform: uppercase;
     display: flex;
     gap: 15px;
 }
 
 /* Banner */
-#banner{
+#banner {
     background-image: url(/assets/img-fundo.jpg);
     background-size: cover;
     margin-top: 0 !important;
-    height: 91vh ;
+    height: 91vh;
 }
 
 /* Welcome */
 
-#welcome .container{
+#welcome .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +66,7 @@ nav{
 }
 
 
-#welcome .container figure{
+#welcome .container figure {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -72,7 +74,57 @@ nav{
     border-bottom: 2px solid #447972;
 }
 
-#welcome .container figure figcaption{
+#welcome .container figure figcaption {
     font-weight: bold;
     padding: 10px 0;
+}
+
+/* About */
+
+.container-infos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0 0 5px;
+    width: calc((100% / 2) - 10px);
+}
+
+
+.info .container-text {
+    display: flex;
+    padding: 10px 0;
+    flex-direction: column;
+    text-align: justify;
+    gap: 30px;
+}
+
+
+.info p {
+    max-width: 400px;
+}
+
+.info img {
+    width: 110px;
+    height: 115px;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+/* Footer */
+
+footer {
+    color: white;
+    background-color: #447972;
+    text-align: center;
+    padding: 15px 0;
 }
