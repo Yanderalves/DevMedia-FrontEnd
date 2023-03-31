@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.limit-size {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* header */
+
+
+header {
+    font-size: 12px;
+    color: rgba(0, 0, 255, 0.452);
+    padding: 10px;
+}
+
+header .limit-size {
+    display: flex;
+    align-items: center;
+}
