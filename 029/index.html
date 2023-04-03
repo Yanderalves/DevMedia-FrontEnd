@@ -25,11 +25,13 @@
     </header>
     <main>
         <div class="banner">
-            <div class="budget">
-                <span>
-                    <ion-icon size="large" name="airplane-outline"></ion-icon>
-                </span>
-                <h2>Solicite o seu orçamento</h2>
+            <div id="budget">
+                <div class="container-head">
+                    <span>
+                        <ion-icon size="large" name="airplane-outline"></ion-icon>
+                    </span>
+                    <h2>Solicite o seu orçamento</h2>
+                </div>
                 <form action="">
                     <div class="container-form">
                         <div class="item-form">
@@ -46,25 +48,29 @@
                         </div>
                     </div>
                     <div class="container-form">
-                        <div class="item-form">
-                            <label for="going">Data de Ida</label>
-                            <input type="date" name="going" id="going">
+                        <div class="container-from-to">
+                            <div class="item-form">
+                                <label for="going">Data de Ida</label>
+                                <input type="date" name="going" id="going">
+                            </div>
+                            <div class="item-form">
+                                <label for="return">Data de volta</label>
+                                <input type="date" name="return" id="return">
+                            </div>
                         </div>
-                        <div class="item-form">
-                            <label for="return">Data de volta</label>
-                            <input type="date" name="return" id="return">
-                        </div>
-                        <div class="item-form">
-                            <label for="origin">Origem</label>
-                            <select name="origin" id="origin">
-                                <option value="">Partindo de</option>
-                            </select>
-                        </div>
-                        <div class="item-form">
-                            <label for="destiny">Destino</label>
-                            <select name="destiny" id="destiny">
-                                <option value="">Indo para</option>
-                            </select>
+                        <div class="container-from-to">
+                            <div class="item-form">
+                                <label for="origin">Origem</label>
+                                <select name="origin" id="origin">
+                                    <option value="">Partindo de</option>
+                                </select>
+                            </div>
+                            <div class="item-form">
+                                <label for="destiny">Destino</label>
+                                <select name="destiny" id="destiny">
+                                    <option value="">Indo para</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                     <div class="container-form">
@@ -75,6 +81,7 @@
                             <label for="chil-bed">Não</label>
                         </div>
                     </div>
+                    <!-- <button type="submit">Solicitar orçamento</button> -->
                 </form>
             </div>
         </div>

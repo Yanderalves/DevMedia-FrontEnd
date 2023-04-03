@@ -23,3 +23,80 @@ header .limit-size {
     display: flex;
     align-items: center;
 }
+
+/* Banner */
+.banner{
+    background-image: url(/assets/imagens/bahia.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* budget */
+
+/* main{
+    padding-top: 50px;
+} */
+
+#budget{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    margin: 0 auto;
+    height: 80vh;
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+}
+
+#budget .container-head{
+    display: flex;
+    background-color: #5d15d1;
+    color: white;
+    justify-content: center;
+}
+
+#budget .item-form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+form .container-form:first-of-type{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+form .container-form:first-of-type .item-form{
+    display: flex;
+    flex-direction: column;
+}
+
+form .container-form input{
+    width: 100%;
+}
+
+form .container-form:nth-child(2){
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form .container-from-to{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    flex-grow: 1;
+}
