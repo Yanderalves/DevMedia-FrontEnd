@@ -13,7 +13,7 @@ No terminal, digite ```node index.js```
 
 - [x] Menu
 - [x] Listagem de Dados
-
+- [x] Calcular aumento do salário
 
 ## Autor
 
