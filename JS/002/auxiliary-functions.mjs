@@ -21,7 +21,6 @@ const printItemList = (list) => {
     let msg = propertyNames.includes('wage') ? ["R$", "Ano: ", "Salário mínimo: "] : ["%", "Ano: ", "inflação do IPCA"]
 
     console.log(" ");
-
     list.forEach(item => {
         let firstRowValue = `${msg[1].padEnd(40, '.')}${String(item[propertyNames[0]])}`;
         let secondRowValue;
@@ -37,9 +36,30 @@ const printItemList = (list) => {
 
         console.log(" ");
     });
+
+}
+
+const calculateIncrementWage = (listWage) => {
+
+    let array = []
+
+    const LENGTH = listWage.length;
+    let wage;
+
+    for (let i = 1; i < LENGTH; i++) {
+        wage = (((listWage[i].wage - listWage[i - 1].wage) / listWage[i - 1].wage) * 100).toFixed(2);
+        array.push(wage);
+    }
+
+    return array;
+}
+
+const printItemListbasic = () => {
+
 }
 
 export const auxiliaryFunctions = {
     menu,
-    printItemList
+    printItemList,
+    calculateIncrementWage
 };

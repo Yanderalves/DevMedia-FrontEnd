@@ -31,8 +31,6 @@ const ipcaCollection = [
 
 let option = auxiliaryFunctions.menu();
 
-console.log(option);
-
 switch (option) {
     case 1:
         auxiliaryFunctions.printItemList(wageCollection);
@@ -41,7 +39,7 @@ switch (option) {
         auxiliaryFunctions.printItemList(ipcaCollection);
         break;
     case 3:
-        // Code here
+        // auxiliaryFunctions.printItemList(wageCollection)
         break;
     default:
         console.log("Opção inválida.")
