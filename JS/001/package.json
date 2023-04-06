@@ -11,6 +11,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^9.6.3",
     "readline-sync": "^1.4.10"
   }
 }

@@ -32,7 +32,6 @@ function printResult(originalValue, days, rate, finalValue) {
     console.log(`Valor total com juros: ${finalValue} R$\n`);
 }
 
-
 export const auxiliaryFunctions = {
     verifyEntry,
     calculateInterestRate,
