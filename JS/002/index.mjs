@@ -39,7 +39,7 @@ switch (option) {
         auxiliaryFunctions.printItemList(ipcaCollection);
         break;
     case 3:
-        // auxiliaryFunctions.printItemList(wageCollection)
+        auxiliaryFunctions.printAll(wageCollection, ipcaCollection);
         break;
     default:
         console.log("Opção inválida.")

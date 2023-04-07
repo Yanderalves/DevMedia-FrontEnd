@@ -8,7 +8,7 @@ const menu = () => {
     let option;
 
     do {
-        option = input.question("Selecione uma opção: ");
+        option = input.question("Selecione uma opcao: ");
     } while (![1, 2, 3].includes(Number(option)))
 
     return Number(option);
@@ -54,12 +54,37 @@ const calculateIncrementWage = (listWage) => {
     return array;
 }
 
-const printItemListbasic = () => {
+const printAll = (listWage, listIpca) => {
+    let  listIncrease = calculateIncrementWage(listWage);
+    listIncrease.splice(0,0, "*");
+    let msg = ["Ano: ", "Salário mínimo", "Crescimento salarial", "R$ ", "%", "inflação do IPCA"];
+    const LENGTH = listWage.length;
 
+    for (let i = 0; i < LENGTH; i++){
+        let firstRowValue = `${msg[0].padEnd(40, '.')}${listWage[i].year}`;
+        let secondRowValue = `${msg[1].padEnd(40, '.')}${String(msg[3] + listWage[i].wage).replace(".", ",")}`;
+        let thirdRowValue;
+
+        if(i == 0){
+            thirdRowValue = `${msg[2].padEnd(40, '.')}${listIncrease[i]}`;
+        }else{
+            thirdRowValue = `${msg[2].padEnd(40, '.')}${listIncrease[i]+ msg[4]}`;
+        }
+
+        let fourthtRowValue = `${msg[5].padEnd(40, '.')}${String(listIpca[i].ipca) + msg[4]}`;
+
+        console.log(firstRowValue);
+        console.log(secondRowValue);
+        console.log(thirdRowValue);
+        console.log(fourthtRowValue);
+
+        console.log(" ");
+    }
 }
 
 export const auxiliaryFunctions = {
     menu,
     printItemList,
-    calculateIncrementWage
+    calculateIncrementWage,
+    printAll
 };
