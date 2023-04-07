@@ -62,7 +62,7 @@ const printAll = (listWage, listIpca) => {
 
     for (let i = 0; i < LENGTH; i++){
         let firstRowValue = `${msg[0].padEnd(40, '.')}${listWage[i].year}`;
-        let secondRowValue = `${msg[1].padEnd(40, '.')}${String(msg[3] + listWage[i].wage).replace(".", ",")}`;
+        let secondRowValue = `${msg[1].padEnd(40, '.')}${String(msg[3] + listWage[i].wage.toFixed(2)).replace(".", ",")}`;
         let thirdRowValue;
 
         if(i == 0){
