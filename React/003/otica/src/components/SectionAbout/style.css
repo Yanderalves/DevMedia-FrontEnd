@@ -1,0 +1,45 @@
+.section-about{
+    background-color: #F8F7FF;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.limit-size p:first-of-type{
+    line-height: 32px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.cards div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    width: 50%;
+    justify-content: center;
+    gap: 30px;
+    border: solid 1px #a2adad;
+}
+
+.cards img{
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+.cards div h4{
+    font-size: 36px;
+    font-size: "Anybody cursive";
+    letter-spacing: 5px;
+    line-height: 42px;
+}
+
+.cards div p{
+    font-size: 22px;
+    color: #4a4a4a;
+}

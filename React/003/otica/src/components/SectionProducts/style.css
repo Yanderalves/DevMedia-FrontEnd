@@ -1,0 +1,27 @@
+.products{
+    width: 100%;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.container-cards{
+    display: flex;
+    margin: 50px 0;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+li{
+    margin: 5px;
+    text-align: left;
+}

@@ -1,0 +1,17 @@
+
+header .limit-size{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 10vh;
+}
+
+header img{
+    width: 150px;
+}
+
+header nav a{
+    padding: 5px;
+    margin: 0 5px;
+}
