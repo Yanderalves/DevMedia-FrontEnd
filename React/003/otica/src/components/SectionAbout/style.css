@@ -18,28 +18,71 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #fff;
-    width: 50%;
-    justify-content: center;
-    gap: 30px;
+    width: calc(50% - 30px);
     border: solid 1px #a2adad;
+    flex-grow: 1;
 }
 
 .cards img{
-    object-fit: cover;
     width: 100%;
+    object-fit: cover;
 }
-
 
 
 .cards div h4{
-    font-size: 36px;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
     font-size: "Anybody cursive";
     letter-spacing: 5px;
-    line-height: 42px;
 }
 
 .cards div p{
-    font-size: 22px;
+    font-size: clamp(1em, 1em + 0.2vw, 1.5em);
     color: #4a4a4a;
+}
+
+.cards .container-text{
+    padding: 10px;
+}
+
+
+@media screen and(max-width:768px) {
+    .cards{
+        flex-direction: column;
+    }
+    .section-about{
+        padding: 25px 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .section-about{
+        padding: 25px 5px;
+    }
+
+    .section-about p{
+        text-align: justify;
+    }
+
+    .cards .container-image{
+        display: none;
+    }
+
+    .cards div{
+        width: 100%;
+        height: 300px;
+    }
+
+    .cards div img{
+        width: 100%;
+        height: 100%;
+    }
 }

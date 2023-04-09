@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     color: white;
 }
@@ -36,3 +36,36 @@
     line-height: 70px;
 }
 
+
+@media screen and(max-width:768px) {
+    .banner h1{
+        font-size: 40px;
+        max-width: 350px;
+
+    }
+
+    .banner p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .banner {
+        background-position: 89% center;
+        text-align: center;
+    }
+
+    .banner .limit-size h1{
+        font-size: 35px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .banner .limit-size p{
+        font-size: 22px;
+    }
+
+    .banner .limit-size{
+        background-color: rgba(0,0,0,0.6);
+    }
+}

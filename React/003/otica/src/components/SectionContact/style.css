@@ -1,0 +1,55 @@
+.section-contact{
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+
+.container-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-items .item{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.container-items .item img{
+    width: 18px;
+}
+
+.container-items .item p{
+    font-size: 14px;
+    margin-left: 14px;
+}
+
+@media screen and(max-width:768px) {
+    .section-contact{
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .section-contact{
+        padding: 30px 5px;
+    }
+
+    .section-contact p{
+        text-align: justify;
+    }
+
+    .container-items{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        margin-top: 25px;
+    }
+
+    .container-items .container .item{
+        padding: 5px;
+    }
+}

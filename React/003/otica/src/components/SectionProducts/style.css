@@ -4,24 +4,40 @@
     padding: 100px 20px;
 }
 
+.products .limit-size{
+    padding: 10px;
+}
+
 .container-cards{
     display: flex;
     margin: 50px 0;
     gap: 5px;
     flex-wrap: wrap;
-    flex-grow: 1;
 }
-
 
 ul{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px;
 }
 
-li{
-    margin: 5px;
-    text-align: left;
+
+@media screen and (max-width:768px) {
+    .products{
+        padding: 20px 0;
+    }
+
+    .container-cards{
+        margin: 25px 0;
+    }
+
+    .container-list ul, .products .limit-size > p {
+        display: none;
+    }
+
+    .products p{
+        text-align: justify;
+    }
+
 }
+

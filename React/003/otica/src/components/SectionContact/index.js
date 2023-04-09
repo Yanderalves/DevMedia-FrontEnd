@@ -8,6 +8,8 @@ import ImageMap from "../../assets/local.png";
 import ImagePhone from "../../assets/telefone.png";
 import ImageEmail from "../../assets/email.png";
 
+import "./style.css";
+
 
 export default function SectionContact(){
     return(
@@ -19,8 +21,8 @@ export default function SectionContact(){
                 <p>
                     Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.
                 </p>
-                <div>
-                    <div>
+                <div className="container-items">
+                    <div className="container">
                         <h4>
                             Contato
                         </h4>
@@ -37,7 +39,7 @@ export default function SectionContact(){
                             <p>Contato@mengo.com</p>
                         </div>
                     </div>
-                    <div>
+                    <div className="container">
                         <h4>
                             Nossas redes sociais
                         </h4>
