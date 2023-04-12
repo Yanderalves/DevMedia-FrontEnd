@@ -1,0 +1,86 @@
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    min-height: 10vh;
+}
+
+.container-logo {
+    width: 100px;
+
+}
+
+
+.container-logo img {
+    width: 100%;
+}
+
+button {
+    border-radius: 70px;
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 3px solid var(--002);
+    cursor: pointer;
+    font-size: 20px;
+    transition: .8s;
+}
+
+button img {
+    width: 30px;
+}
+
+/* Conteúdo */
+
+
+.banner {
+    height: 40vh;
+    background-image: url(/public/assets/banner-barbearia.jpg);
+    background-size: cover;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.section-text p {
+    max-width: 1000px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.section-text h1 {
+    text-align: center;
+    font-size: calc(1.5em + 1vw);
+}
+
+.section-text p:first-of-type {
+    font-weight: bold;
+}
+
+.section-text p:last-child {
+    font-family: var(--GreatVibes);
+    color: var(--002);
+    font-size: calc(1.8em + 1vw);
+}
+
+/* Dark theme */
+
+header.dark,
+.section-text.dark,
+button.dark {
+    background-color: var(--003);
+    color: white;
+}

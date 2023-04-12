@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: var(--Poppins);
+}
+
+:root {
+  --001: #FFF;
+  --002: #B2987D;
+  --003: #252323;
+
+  --Poppins: 'Poppins', sans-serifs;
+  --GreatVibes: Great Vibes, cursive;
+}
