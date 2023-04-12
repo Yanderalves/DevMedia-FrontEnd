@@ -1,0 +1,70 @@
+.banner-ice-creams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/public/assets/banner-sabores.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70vh;
+    object-fit: cover;
+}
+
+
+section h2{
+    font-size: clamp(1em, 1.3em + 1vw, 2em);
+}
+
+.banner-ice-creams div{
+    color: white;
+    font-size:  clamp(1em, 1em + 1vw, 2em);
+    text-shadow: 4px 3px 5px black;
+}
+
+.container-ice-creams{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    padding: 0 5px;
+    gap: 50px;
+}
+
+.container-ice-creams .card img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.container-ice-creams .card p, .container-ice-creams .card h3{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.container-ice-creams .card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    width: calc((100% / 3) - 35px);
+    height: 400px;
+    padding: 15px;
+    box-shadow: 0px 1px 10px 1px black;
+}
+
+main section:last-child{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: 25px auto;
+}
+
+@media screen and (max-width: 768px){
+    .container-ice-creams{
+        flex-direction: column;
+    }
+
+    .container-ice-creams .card{
+        width: 100%;
+    }
+}

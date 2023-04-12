@@ -11,8 +11,8 @@ function RoutesPage(){
         <BrowserRouter> 
             <Routes>
                 <Route exact path="/" element={<Home />} />
-                <Route path="/about" component={<About />} />
-                <Route path="/flavors" component={<Flavors />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/flavors" element={<Flavors />} />
             </Routes>
         </BrowserRouter>
     )
