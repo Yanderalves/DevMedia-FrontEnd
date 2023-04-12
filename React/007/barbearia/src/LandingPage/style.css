@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5px 20px;
-    height: 80px;
+    height: 10vh;
 }
 
 .container-logo {
@@ -54,7 +54,7 @@ button img {
     gap: 20px;
     padding: 20px;
     align-items: center;
-    min-height: 50vh;
+    height: 50vh;
 }
 
 .section-text p {

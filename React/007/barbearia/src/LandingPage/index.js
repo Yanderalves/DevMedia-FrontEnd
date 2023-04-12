@@ -14,7 +14,6 @@ const LandingPage = () => {
         setDarkTheme(darkTheme);
     }
 
-
     return ( 
         <div className="landing-page">
             <header className={darkThemeActive ? classDark : ''}>
