@@ -1,3 +1,7 @@
+.landing-page{
+    height: 100vh;
+}
+
 /* Header */
 
 header {
@@ -5,14 +9,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5px 20px;
-    min-height: 10vh;
+    height: 80px;
 }
 
 .container-logo {
     width: 100px;
-
 }
-
 
 .container-logo img {
     width: 100%;
@@ -21,19 +23,19 @@ header {
 button {
     border-radius: 70px;
     width: 150px;
-    height: 60px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     border: 3px solid var(--002);
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
     transition: .8s;
 }
 
 button img {
-    width: 30px;
+    width: 25px;
 }
 
 /* Conteúdo */
@@ -49,24 +51,25 @@ button img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
     padding: 20px;
     align-items: center;
     min-height: 50vh;
 }
 
 .section-text p {
-    max-width: 1000px;
+    max-width: 900px;
     text-align: center;
-    font-size: 1.3em;
+    font-size: clamp(0.5em, 1em + 1vw, 1em);
 }
 
 .section-text h1 {
     text-align: center;
-    font-size: calc(1.5em + 1vw);
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
 }
 
 .section-text p:first-of-type {
+    font-size: clamp(0.4em, 0.5em + 1vw, 1.5em);;
     font-weight: bold;
 }
 

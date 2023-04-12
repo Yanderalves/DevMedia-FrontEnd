@@ -15,8 +15,8 @@ const LandingPage = () => {
     }
 
 
-    return (
-        <div>
+    return ( 
+        <div className="landing-page">
             <header className={darkThemeActive ? classDark : ''}>
                 <div className="container-logo">
                     <img src="assets/barbearia-logo.png"></img>
