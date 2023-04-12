@@ -1,0 +1,53 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: black;
+    color: white;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer img{
+    width: 170px;
+}
+
+footer .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a, footer a:visited{
+    color: #f9db79;
+}
+
+footer a::before{
+    content: "🔗";
+}
+
+footer > p{
+    margin-top: 4em;
+}
+
+ @media screen and (max-width: 768px) {
+    footer{
+        height: auto;
+        padding: 30px 0;
+    }
+
+    footer img{
+        width: 110px;
+    }
+    footer .container{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+ }

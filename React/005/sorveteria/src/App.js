@@ -1,4 +1,5 @@
 import RoutesPage from './RoutesPage';
+import './App.css';
 
 function App() {
 

@@ -1,0 +1,64 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9db79;
+    background-image: url(/public/assets/banner-home.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.banner div{
+    color: white;
+    font-size:  clamp(1em, 1em + 1vw, 2em);
+    text-shadow: 4px 3px 5px black;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+section img{
+    width: 50%;
+}
+
+section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    height: 100%;
+}
+
+section .container h2{
+    font-size: clamp(1em, 1.3em + 1vw, 2em);
+}
+
+section .container span{
+    font-weight: bold;
+}
+
+section div p{
+    text-align: justify;
+    max-width: 420px;
+}
+
+@media screen and (max-width: 768px) {
+    section img, section .container{
+        width: 100%;
+    }
+
+    section{
+        flex-direction: column;
+    }
+
+    section .container{
+        padding: 40px 10px;
+        order: -1;
+    }
+}
