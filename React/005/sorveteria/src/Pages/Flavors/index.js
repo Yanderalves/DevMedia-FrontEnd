@@ -17,7 +17,7 @@ function Flavors(){
                         <h1>NOSSOS SABORES</h1>
                     </div>
                 </section>
-                <section>
+                <section className="ice-creams">
                     <h2>SABORES DE SORVETE</h2>
                     <div className="container-ice-creams">
                         <div className="card">

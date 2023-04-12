@@ -19,8 +19,10 @@ function About(){
 
                     <section className="container-about">
                         <div>
-                            <h2>Sobre Nós</h2>
-                            <span>Nós simplesmente amamos sorvete!</span>
+                            <div className="container-text">
+                                <h2>Sobre Nós</h2>
+                                <span>Nós simplesmente amamos sorvete!</span>
+                            </div>
                             <p>
                             Somos uma empresa apaixonada pelo que faz. Colocamos amor em cada
                             sorvete produzido. Fazemos o melhor sorvete para os nossos
@@ -42,8 +44,8 @@ function About(){
                     </section>
 
                     <div className="container-images">
-                            <Image src="assets/sobre-image.jpg" alt="pessoas comendo sorvete" />
-                            <Image src="assets/sorveteria.jpg" alt="loja sorveteria" />
+                        <Image src="assets/sobre-image.jpg" alt="pessoas comendo sorvete" />
+                        <Image src="assets/sorveteria.jpg" alt="loja sorveteria" />
                     </div>
                 </main>
                 <Footer />
