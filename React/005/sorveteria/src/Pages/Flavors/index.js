@@ -21,42 +21,42 @@ function Flavors(){
                     <h2>SABORES DE SORVETE</h2>
                     <div className="container-ice-creams">
                         <div className="card">
-                            <img src="assets/sabor-oreo.png" alt="sorvete sabor oreo"/>
+                            <Image src="assets/sabor-oreo.png" alt="sorvete sabor oreo"/>
                             <div class="container-text">
                                 <h3>Sorvete de Oreo</h3>
                                 <p>Delicioso sorvete sabor Oreo. Uma explosão de sabor.</p>
                             </div>
                         </div>
                         <div className="card">
-                            <img src="assets/sabor-pistache.png" alt="sorvete sabor pistache"/>
+                            <Image src="assets/sabor-pistache.png" alt="sorvete sabor pistache"/>
                             <div class="container-text">
                                 <h3>Sorvete Pistache</h3>
                                 <p>Cremoso sorvete sabor pistache com pedacinhos de semente.</p>
                             </div>
                         </div>
                         <div className="card">
-                            <img src="assets/sabor-cookies-avela.png" alt="sorvete sabor cookie com avelã"/>
+                            <Image src="assets/sabor-cookies-avela.png" alt="sorvete sabor cookie com avelã"/>
                             <div class="container-text">
                                 <h3>Sorvete Cookies & Avelã</h3>
                                 <p>O nosso melhor sorvete. Você vai adorar o sabor.</p>
                             </div>
                         </div>
                         <div className="card">
-                            <img src="assets/sorbet-kiwi.png" alt="sorbet sabor kiwi"/>
+                            <Image src="assets/sorbet-kiwi.png" alt="sorbet sabor kiwi"/>
                             <div class="container-text">
                                 <h3>Sorvete de Kiwi</h3>
                                 <p>Delicioso e refrescante sorvete sabor kiwi. Rico em vitamina C.</p>
                             </div>
                         </div>
                         <div className="card">
-                            <img src="assets/sorbet-morango.png" alt="sorbet sabor morango"/>
+                            <Image src="assets/sorbet-morango.png" alt="sorbet sabor morango"/>
                             <div class="container-text">
                                 <h3>Sorvete de Morango</h3>
                                 <p>Sorvete de morango gourmet. Tradicional e saboroso.</p>
                             </div>
                         </div>
                         <div className="card">
-                            <img src="assets/sorbet-limao.png" alt="sorbet limão siciliano"/>
+                            <Image src="assets/sorbet-limao.png" alt="sorbet limão siciliano"/>
                             <div class="container-text">
                                 <h3>Sorvete de Limão Siciliano</h3>
                                 <p>O incrivel sorvete gourmet de limão siciliano vai te encantar.</p>

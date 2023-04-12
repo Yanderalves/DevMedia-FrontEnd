@@ -1,0 +1,67 @@
+.banner-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/public/assets/banner-sobre.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70vh;
+    object-fit: cover;
+}
+
+
+.banner-about div{
+    color: white;
+    font-size:  clamp(1em, 1em + 1vw, 2em);
+    text-shadow: 4px 3px 5px black;
+}
+
+.container-about{
+    margin: 25px 0;
+    padding: 10px;
+}
+
+.container-about div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.container-about div p{
+    max-width: 900px;
+    text-align: center;
+
+}
+
+.container-about div span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.container-images img{
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .container-images{
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container-images img:first-of-type{
+        display: none;
+    }
+    .container-images img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
