@@ -43,7 +43,7 @@ button img {
 
 .banner {
     height: 40vh;
-    background-image: url(/assets/banner-barbearia.jpg);
+    background-image: url(/public/assets/banner-barbearia.jpg);
     background-size: cover;
 }
 
