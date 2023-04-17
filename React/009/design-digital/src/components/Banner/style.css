@@ -14,7 +14,6 @@
 .image-banner {
     background-image: url(/public/assets/banner.png);
     background-repeat: no-repeat;
-    margin-top: 130px;
     background-size: cover;
 }
 
