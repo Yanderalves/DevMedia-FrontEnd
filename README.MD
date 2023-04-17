@@ -40,5 +40,5 @@ Aqui, você irá encontrar códigos HTML, CSS, e JS, com a biblioteca React JS.
 - Componentes
 - State hook
 - Rotas
-- Pros
+- Props
 
