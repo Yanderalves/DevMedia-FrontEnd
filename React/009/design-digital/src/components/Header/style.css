@@ -1,0 +1,30 @@
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    height: 10vh;
+}
+
+.container-logo {
+    width: 50px;
+}
+
+.container-logo img {
+    width: 100%;
+}
+
+button {
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    transition: .8s;
+    border-radius: 50%;
+}
+
+button img {
+    width: 25px;
+}

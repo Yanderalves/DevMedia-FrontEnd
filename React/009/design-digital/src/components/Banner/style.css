@@ -1,0 +1,8 @@
+.banner{
+    display: flex;
+}
+
+.image-banner{
+    height: 100vh;
+    background-image: url(../../assets/banner.png);
+}
