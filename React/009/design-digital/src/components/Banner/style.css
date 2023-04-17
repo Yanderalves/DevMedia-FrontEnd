@@ -15,7 +15,7 @@
     background-image: url(/public/assets/banner.png);
     background-repeat: no-repeat;
     margin-top: 130px;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .text-banner {
@@ -47,4 +47,14 @@
 
 .banner.banner.dark .text-banner {
     color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .image-banner {
+        display: none;
+    }
+
+    .text-banner {
+        text-align: center;
+    }
 }
