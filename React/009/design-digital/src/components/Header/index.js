@@ -2,10 +2,9 @@ import React from "react";
 import './style.css';
 
 import ImageMoon from '../../assets/moon.png';
-import ImageSun from '../../assets/sun.png';
+import ImageSun from 'assets/sun.png';
 
-import Logo from '../../assets/logo.png';
-
+import Logo from 'assets/logo.png';
 
 export default function Header (props) {
     return(
