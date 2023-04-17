@@ -1,0 +1,41 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+    background-color: var(--normal-header-footer);
+}
+
+.social-medias {
+    display: flex;
+    gap: 10px;
+}
+
+.social-medias img {
+    width: 50px;
+}
+
+footer p {
+    text-align: center;
+    max-width: 600px;
+    font-size: 1.1rem;
+}
+
+footer div:last-of-type {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer div:last-of-type a {
+    color: var(--yellow);
+}
+
+
+footer.dark {
+    background-color: var(--dark-header-footer);
+}
+
+footer.dark {
+    color: white;
+}

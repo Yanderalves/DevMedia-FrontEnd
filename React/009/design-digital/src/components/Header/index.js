@@ -1,19 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import './style.css';
 
-import ImageMoon from '../../assets/moon.png';
-import ImageSun from 'assets/sun.png';
+const imageButtonDark = 'assets/sun.png';
+const imageButtonNormal = 'assets/moon.png'
 
-import Logo from 'assets/logo.png';
+export default function Header(props) {
 
-export default function Header (props) {
-    return(
-        <header>
+    return (
+        <header className={props.darkTheme ? 'dark' : ''}>
             <div className="container-logo">
-                <img src={Logo}></img>
+                <img src='assets/logo.png'></img>
             </div>
-            <button>
-                <img src={props.theme == 'dark' ? ImageSun : ImageMoon }></img>
+            <button onClick={props.changeTheme}>
+                <img src={props.darkTheme ? imageButtonNormal : imageButtonDark}></img>
             </button>
         </header>
     )

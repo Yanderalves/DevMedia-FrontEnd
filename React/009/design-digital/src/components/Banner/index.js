@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-export default function Banner() {
+export default function Banner(props) {
     return (
-        <section className="banner">
+        <section className={`banner ${props.darkTheme ? 'dark' : ''}`}>
             <div className="image-banner">
 
             </div>

@@ -1,8 +1,50 @@
-.banner{
+.banner {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.image-banner{
+.text-banner,
+.image-banner {
+    width: 50vw;
     height: 100vh;
-    background-image: url(../../assets/banner.png);
+}
+
+.image-banner {
+    background-image: url(/public/assets/banner.png);
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    background-size: 100%;
+}
+
+.text-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    color: var(--dark-text-banner);
+}
+
+.text-banner h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.text-banner h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.text-banner p {
+    font-style: italic;
+}
+
+.banner.dark {
+    background-color: var(--dark-banner-image-background);
+    color: var(--normal-backgorund-work-experiences);
+}
+
+.banner.banner.dark .text-banner {
+    color: white;
 }

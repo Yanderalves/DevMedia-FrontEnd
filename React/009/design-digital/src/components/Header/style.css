@@ -6,6 +6,9 @@ header {
     align-items: center;
     padding: 5px 20px;
     height: 10vh;
+    position: fixed;
+    width: 100%;
+    background-color: var(--normal-header-footer);
 }
 
 .container-logo {
@@ -23,8 +26,15 @@ button {
     border: none;
     transition: .8s;
     border-radius: 50%;
+    background-color: white;
 }
 
+
 button img {
-    width: 25px;
+    width: 40px;
+}
+
+header.dark,
+header.dark button {
+    background-color: var(--dark-header-footer);
 }

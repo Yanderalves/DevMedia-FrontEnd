@@ -1,0 +1,29 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: calc(100% / 3);
+    height: 350px;
+    border-top: 0.1px solid rgba(0, 0, 0, 0.397);
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.397);
+    border-left: 0.1px solid rgba(0, 0, 0, 0.397);
+    line-height: 30px;
+    text-align: left;
+    padding: 15px;
+}
+
+
+.card p {
+    font-size: 1.1rem;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+}
+
+.card .container-title {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}

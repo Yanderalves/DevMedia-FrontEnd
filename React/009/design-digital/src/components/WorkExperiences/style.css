@@ -1,0 +1,58 @@
+.work-experiences {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.work-experiences>h2 {
+    font-size: 2.5rem;
+}
+
+.work-experiences span {
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: var(--yellow);
+}
+
+.work-experiences>p {
+    max-width: 900px;
+    font-size: 1.2rem;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.work-experiences h3,
+.work-experiences h2 {
+    color: var(--normal-subtitles);
+}
+
+.work-experiences p {
+    color: var(--normal-paragraphs-work-experiences);
+}
+
+.container-cards .card:last-of-type {
+    border-right: 0.1px solid rgba(0, 0, 0, 0.397);
+
+}
+
+.work-experiences.dark {
+    background-color: var(--dark-backgorund-work-experiences);
+}
+
+.work-experiences.dark h2,
+.work-experiences h3 {
+    color: white;
+}
+
+.work-experiences.dark p {
+    color: var(--dark-paragraphs-work-experiences);
+}
