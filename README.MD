@@ -1,4 +1,4 @@
-# Carreira Fron-end | Devmedia
+# Carreira Front-end | Devmedia
 
 Códigos feitos ao longo da realização da Trilha frond-end, da plataforma Devmedia
 
